@@ -31,5 +31,5 @@ public class principal
             char c = h.charAt(i);
             System.out.println(c);
         }
-        
+
 }
