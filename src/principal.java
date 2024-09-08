@@ -24,11 +24,7 @@ public class principal
 		Persona persona1 = new Persona("Juan","Av. Castañares 4273",30);
 		persona1.saludar();
 		
-		String s = "hola\"0";
-		for(int i = 0; i < s.length(); i++)
-		{
-			char a = s.charAt(i);
-			System.out.println(a);
-		}
+		String s = "Hola como estas";
+        System.out.println(s);
 	}
 }
