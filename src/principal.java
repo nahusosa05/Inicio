@@ -1,19 +1,19 @@
-class Persona {
-    // Atributos
+class Persona 
+{
     String nombre;
-    String direccion;
     int edad;
+    String direccion;
 
-    // Constructor
-    public Persona(String n,String d ,int e) {
+    public Persona(String n,String d ,int e) 
+    {
         this.nombre = n;
         this.direccion = d;
         this.edad = e;
     }
 
-    // Método
-    void saludar() {
-        System.out.println("Hola, mi nombre es " + nombre + " y tengo " + edad + " años.");
+    void saludar(Persona p) 
+    {
+        System.out.println("Hola " + p.nombre + " - Tu edad: " +  p.edad + " y tu direccion es: " + p.direccion );
     }
 }
 
@@ -21,10 +21,7 @@ public class principal
 {
 	public static void main(String[] args)
 	{
-		Persona persona1 = new Persona("Juan","Av. Castañares 4273",30);
-		persona1.saludar();
-		
-		String s = "Hola como estas";
-        System.out.println(s);
+		Persona persona1 = new Persona("Nahuel","Av. Castañares 4273",20);
+		persona1.saludar(persona1);
 	}
 }
