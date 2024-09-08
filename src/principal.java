@@ -1,6 +1,24 @@
+/* PARA DEBUGGEAR: 
+Creo un breakpoint donde quiero debuggear, una vez puesto corro el programa y este se va a frenar
+una vez el programa llegue a la linea de codigo donde esta ese breakpoint.*/
+
+/* ATAJOS:
+CTRL + / o CTRL + } == Comentar con //.
+CTRL + S == Guardar.
+CTRL + F5 == Compilar (sin debuggear).
+F5 = Debuggear (acordarse del breakpoint).
+ALT  ↑/↓  == Al principio de un codigo, mueve una linea.
+Inicio == Te para al principio de la linea de codigo.
+Fin == Te para al final de la linea de codigo.
+
+- Snippets:
+cmt == comentar.
+clg == System.out.println();
+ */
+
 class Persona 
 {
-    // creo los campos de persona
+    // Creo los campos de Persona
     String nombre;
     int edad;
     String direccion;
@@ -26,7 +44,7 @@ public class principal
 	{
 		System.out.println("Hola mundo");
         //declaro persona1 como tipo de dato(clase) Persona
-		Persona persona1 = new Persona("Nahuel","Av. Castañares 4273",20);
+		Persona persona1 = new Persona("Nahuel","Calle falsa 123",20);
 		persona1.saludar(persona1);
 
         String h = "hola";
@@ -36,7 +54,7 @@ public class principal
             System.out.println(c);
         }
 
-
         System.out.println("hola");
+
 	}
 }
