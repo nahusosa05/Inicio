@@ -24,4 +24,12 @@ public class principal
 		Persona persona1 = new Persona("Nahuel","Av. Castañares 4273",20);
 		persona1.saludar(persona1);
 	}
+
+    String h = "hola";
+        for(int i =0; i<h.length();i++)
+        {
+            char c = h.charAt(i);
+            System.out.println(c);
+        }
+        
 }
