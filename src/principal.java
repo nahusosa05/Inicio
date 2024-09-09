@@ -99,7 +99,6 @@ public class principal
         {
             System.out.println(nombreDia);
         }
-
-
+        System.out.println("chau mundo");
 	}
 }
