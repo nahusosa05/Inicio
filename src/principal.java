@@ -97,12 +97,5 @@ public class principal
         }
         System.out.println("chau mundo");
         System.out.println("fernandito");
-
-        int edad = 20;
-        for(int f=0; f<nombreDia.length() ;f++)
-        {
-            System.out.println("Tu edad es: " + edad);
-        }
-
 	}
 }
