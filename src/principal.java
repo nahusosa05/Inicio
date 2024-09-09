@@ -31,5 +31,4 @@ public class principal
             System.out.println(c);
         }
 	}
-    
 }
